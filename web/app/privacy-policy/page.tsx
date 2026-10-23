@@ -50,13 +50,13 @@ export default function Privacy() {
         <p>We use reasonable safeguards, including encryption and access controls, but no system can be guaranteed secure. We keep information only as long as needed to provide services, meet legal duties, and resolve disputes.</p>
 
         <h2>Your choices</h2>
-        <p>You may ask for a copy of your information, ask us to correct or delete it, opt out of marketing email and text messages, and withdraw text message consent at any time. Email <a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a> or call <a className="link" href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a>.</p>
+        <p>You may ask for a copy of your information, ask us to correct or delete it, opt out of marketing email and text messages, and withdraw text message consent at any time. Email <a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a>.</p>
 
         <h2>Changes</h2>
         <p>We may update this policy and will revise the date above when we do.</p>
 
         <h2>Contact</h2>
-        <p>{SITE.legalName}<br />at {SITE.practice}, {SITE.street}, {SITE.city}, {SITE.region} {SITE.postal}<br /><a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a> &nbsp;·&nbsp; <a className="link" href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a></p>
+        <p>{SITE.legalName}<br />at {SITE.practice}, {SITE.street}, {SITE.city}, {SITE.region} {SITE.postal}<br /><a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
         <p>See also our <Link className="link" href="/terms-of-service/">Terms of Service</Link>.</p>
       </section>
     </>

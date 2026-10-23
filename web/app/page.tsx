@@ -25,7 +25,7 @@ export const metadata = pageMeta(META);
 const steps = [
   {
     title: 'Talk first',
-    body: 'Sixty minutes. What you want changed, what worries you, what your timeline and budget look like. No chair yet, no instruments, and an honest answer if veneers are not right for you.',
+    body: 'Start with your photos. What you want changed, what worries you, what your timeline and budget look like. No chair yet, no instruments, and an honest answer if veneers are not right for you.',
     src: '/photos/consult-screen.webp', alt: 'Dr. Ennuson reviewing images on screen with a patient at a veneer consultation', pos: '50% 12%',
   },
   {
@@ -179,8 +179,8 @@ export default function Home() {
           <div className="c-1-5">
             <h2>What people actually ask at midnight.</h2>
             <aside className="aside">
-              <p className="aside-k">Still up? Call or text.</p>
-              <a className="aside-tel" href="tel:+14043834574">(404) 383-4574</a>
+              <p className="aside-k">Start with your photos.</p>
+              <a className="link" href="/consultation/#book">Get a 24-hour quote</a>
               <p className="small">Evening and weekend consultations. No obligation, no pressure, real answers.</p>
             </aside>
           </div>

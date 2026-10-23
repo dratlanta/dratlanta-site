@@ -7,8 +7,8 @@ import { SITE, pageMeta } from '@/lib/site';
 import { pageGraph } from '@/lib/schema';
 
 const META = {
-  title: 'Book a Veneer Consultation in Metro Atlanta | Dr. Atlanta',
-  description: 'A sixty-minute veneer consultation with Dr. Eric Ennuson, DDS, in Lawrenceville, GA: exam, photographs, shade, and the full price in writing.',
+  title: 'Get a Photo Estimate in Metro Atlanta | Dr. Atlanta',
+  description: 'Upload your photos for a preliminary quote within 24 hours, or request a virtual consultation with Dr. Atlanta. Final pricing requires an in-person exam and X-rays.',
   path: '/consultation/',
 };
 export const metadata = pageMeta(META);
@@ -21,15 +21,14 @@ export default function Consultation() {
         <div className="wrap grid">
           <div className="c-1-11">
             <h1>
-              <span className="rise"><span>The veneer consultation.</span></span>
-              <span className="rise"><span style={{ ['--d' as string]: '0.1s' }}>Sixty minutes.</span></span>
+              <span className="rise"><span>Your smile, reviewed.</span></span>
+              <span className="rise"><span style={{ ['--d' as string]: '0.1s' }}>A quote within 24 hours.</span></span>
               <span className="rise"><span style={{ ['--d' as string]: '0.2s' }}><em>Zero pressure.</em></span></span>
             </h1>
           </div>
           <div className="c-8-13 fade-in" style={{ alignSelf: 'end' }}>
             <p className="lede">
-              You leave knowing what is possible for your smile, what it costs, and what happens next — whether or not you ever book
-              treatment. Evening and weekend appointments available. Or just call <a className="link" href="tel:+14043834574">(404) 383-4574</a>.
+              Submit your goals and clear photos. Dr. Atlanta will personally review your completed intake and email a preliminary quote within 24 hours. You can also request a virtual consultation after submitting.
             </p>
           </div>
         </div>
@@ -45,23 +44,23 @@ export default function Consultation() {
             <Photo src="/photos/consult-screen.webp" alt="Dr. Ennuson walking a patient through images on screen" width={1024} height={1535} sizes="(max-width: 960px) 100vw, 33vw" />
           </div>
           <div className="c-5-13">
-            <h2 style={{ marginBottom: 'clamp(32px, 5vw, 64px)', maxWidth: '12em' }}>The hour, in order.</h2>
+            <h2 style={{ marginBottom: 'clamp(32px, 5vw, 64px)', maxWidth: '12em' }}>What happens next.</h2>
           <ol className="steps" style={{ listStyle: 'none', gridTemplateColumns: 'repeat(2, 1fr)' }}>
             <li className="step">
-              <h3>Talk first</h3>
-              <p>What you want changed, what worries you, what your timeline and budget look like. No chair yet, no instruments.</p>
+              <h3>Share your goals</h3>
+              <p>Complete the intake and upload clear photos of your smile. Include recent X-rays if you have them.</p>
             </li>
             <li className="step">
-              <h3>Exam and photographs</h3>
-              <p>X-rays, a gum health check, and the same calibrated photography that guides the lab. If veneers are not right for you, this is where we say so.</p>
+              <h3>Choose your next step</h3>
+              <p>Choose a photo estimate or request a virtual consultation. Virtual appointments are arranged by email and held through Google Meet.</p>
             </li>
             <li className="step">
-              <h3>The plan</h3>
-              <p>Shade direction against your skin in daylight, design approach, number of visits, and the full price in writing. Full-arch is $8,999, same as the website.</p>
+              <h3>Your preliminary estimate</h3>
+              <p>Dr. Atlanta reviews your completed intake and clear photos and emails a preliminary quote within 24 hours. You can ask about monthly payment options when you reply.</p>
             </li>
             <li className="step">
-              <h3>You decide later</h3>
-              <p>Take the plan home. Financing options if you want them, with a soft check only. Nobody follows you to the parking lot.</p>
+              <h3>Confirm in person</h3>
+              <p>Before treatment, an in-person exam and necessary X-rays confirm the recommendations and final price. We will explain any changes so you can decide how to proceed.</p>
             </li>
           </ol>
           </div>
@@ -71,7 +70,7 @@ export default function Consultation() {
       <section className="band" style={{ paddingBottom: 0 }}>
         <div className="wrap">
           <div className="grid" style={{ marginBottom: 'clamp(28px, 4vw, 44px)' }}>
-            <div className="c-1-6"><h2>Where you&rsquo;ll be.</h2></div>
+            <div className="c-1-6"><h2>When you visit.</h2></div>
             <div className="c-7-13" style={{ alignSelf: 'end' }}><p className="lede">{SITE.practice}, {SITE.street}, {SITE.city}, {SITE.region} {SITE.postal}. A fixed practice in metro Atlanta you can walk into. <Link className="link" href="/contact/">Directions and contact</Link>.</p></div>
           </div>
           <div className="gal3">
@@ -85,7 +84,7 @@ export default function Consultation() {
       <section className="band" style={{ paddingBottom: 0 }}>
         <div className="wrap grid">
           <div className="c-1-5">
-            <h2>What to bring, and what you leave with.</h2>
+            <h2>For your in-person visit.</h2>
           </div>
           <div className="c-6-13">
             <dl className="facts">
@@ -105,8 +104,8 @@ export default function Consultation() {
           <div className="c-1-5">
             <h2>“What if I hate them?”</h2>
             <aside className="aside">
-              <p className="aside-k">Rather talk first?</p>
-              <a className="aside-tel" href="tel:+14043834574">(404) 383-4574</a>
+              <p className="aside-k">Ready to start?</p>
+              <a className="link" href="/consultation/#book">Get a 24-hour quote</a>
               <p className="small">No obligation, no pressure, real answers.</p>
             </aside>
           </div>

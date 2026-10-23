@@ -55,7 +55,7 @@ export default function VeneersLawrenceville() {
               metro Atlanta. A full-arch smile design is $8,999, published.
             </p>
             <div className="btn-row" style={{ marginTop: 28 }}>
-              <Link className="btn solid" href="/consultation/">Book a consultation</Link>
+              <Link className="btn solid" href="/consultation/">Get a 24-hour quote</Link>
               <a className="btn" href={SITE.mapsUrl} target="_blank" rel="noopener">Get directions</a>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function VeneersLawrenceville() {
               <dt>Address</dt>
               <dd><address style={{ fontStyle: 'normal' }}>{SITE.name}<br />at {SITE.practice}<br />{SITE.street}<br />{SITE.city}, {SITE.region} {SITE.postal}</address></dd>
             </div>
-            <div><dt>Phone</dt><dd><a className="link" href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a> &nbsp;call or text</dd></div>
+            <div><dt>Get started</dt><dd><a className="link" href="/consultation/#book">Get a 24-hour quote</a></dd></div>
             <div><dt>Hours</dt><dd>Consultations by appointment, including evenings and weekends.</dd></div>
             <div><dt>Dentist</dt><dd><Link className="link" href="/about/">{SITE.doctor}</Link>, {SITE.school}. Licensed by the Georgia Board of Dentistry.</dd></div>
           </dl>
@@ -136,7 +136,7 @@ export default function VeneersLawrenceville() {
           <h2 style={{ marginBottom: 'clamp(28px, 4vw, 44px)', maxWidth: '14em' }}>Veneers in Lawrenceville: quick answers.</h2>
           <Qa items={QA} />
           <div className="btn-row" style={{ marginTop: 36 }}>
-            <Link className="btn solid" href="/consultation/">Book a consultation</Link>
+            <Link className="btn solid" href="/consultation/">Get a 24-hour quote</Link>
             <Link className="btn" href="/results/">See before and after</Link>
           </div>
         </div>
@@ -146,3 +146,4 @@ export default function VeneersLawrenceville() {
     </>
   );
 }
+  

@@ -41,7 +41,7 @@ export default function GhlBooking({ minHeight = 640 }: { prefill?: Record<strin
         ref={frame}
         src={src}
         id={`inline-${id}`}
-        title="Request a consultation"
+        title="Photo estimate intake"
         style={{ width: '100%', height, border: 'none', display: 'block', borderRadius: 6 }}
         scrolling="no"
         data-layout='{"id":"INLINE"}'
@@ -49,13 +49,14 @@ export default function GhlBooking({ minHeight = 640 }: { prefill?: Record<strin
         data-activation-type="alwaysActivated"
         data-deactivation-type="neverDeactivate"
         data-form-id={id}
-        data-form-name="Consultation request"
+        data-form-name="Photo estimate intake"
         onLoad={() => setLoaded(true)}
       />
       <noscript>
-        <p className="small">Call <a className="link" href="tel:+14043834574">(404) 383-4574</a> to book.</p>
+        <p className="small"><a className="link" href={EMBED_URL}>Open the photo estimate form</a></p>
       </noscript>
       <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
     </div>
   );
 }
+  

@@ -31,10 +31,10 @@ export default function Accessibility() {
         </ul>
 
         <h2>Known limitations</h2>
-        <p>The 3D tooth model and the embedded consultation form come from third-party tools and may not meet every criterion. If either gets in your way, call or email and we will take your request directly.</p>
+        <p>The 3D tooth model and the embedded consultation form come from third-party tools and may not meet every criterion. If either gets in your way, email and we will take your request directly.</p>
 
         <h2>Tell us about a barrier</h2>
-        <p>Email <a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a> or call <a className="link" href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a>. We aim to respond within five business days, and we can provide any information on this site another way.</p>
+        <p>Email <a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a>. We aim to respond within five business days, and we can provide any information on this site another way.</p>
       </section>
     </>
   );

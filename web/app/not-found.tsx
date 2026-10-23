@@ -19,10 +19,10 @@ export default function NotFound() {
       <div className="wrap" style={{ marginTop: 'clamp(32px, 5vw, 64px)' }}>
         <ul className="nf">
           <li><Link href="/veneers/">Porcelain veneers</Link><span>The process, the visits, and honest answers</span></li>
-          <li><Link href="/pricing/">Pricing and financing</Link><span>The published number and what it includes</span></li>
+          <li><Link href="/pricing/">Pricing and monthly payment options</Link><span>The published number and what it includes</span></li>
           <li><Link href="/results/">Before and after</Link><span>Real patients of the practice</span></li>
-          <li><Link href="/consultation/">Book a consultation</Link><span>Sixty minutes, no pressure</span></li>
-          <li><Link href="/contact/">Contact and directions</Link><span>Address, phone, and how to reach us</span></li>
+          <li><Link href="/consultation/">Get a 24-hour quote</Link><span>A photo estimate within 24 hours</span></li>
+          <li><Link href="/contact/">Contact and directions</Link><span>Address, email, and how to reach us</span></li>
         </ul>
       </div>
     </section>

@@ -35,7 +35,6 @@ export const siteGraph = {
       url: `${SITE.url}/`,
       logo: `${SITE.url}/og/icon-512.png`,
       image: [`${SITE.url}/og/default.jpg`, `${SITE.url}/photos/ennuson-hallway.webp`, `${SITE.url}/photos/brush-sign.webp`],
-      telephone: SITE.phoneE164,
       email: SITE.email,
       priceRange: '$8,999 full-arch smile design',
       isAcceptingNewPatients: true,
@@ -114,3 +113,4 @@ export const faq = (items: [string, string][]) => ({
   '@type': 'FAQPage',
   mainEntity: items.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
 });
+  

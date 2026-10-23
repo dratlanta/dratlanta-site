@@ -12,7 +12,7 @@ export default function Footer() {
             <address style={{ fontStyle: 'normal' }}>
               <p>at {SITE.practice}<br />{SITE.street}<br />{SITE.city}, {SITE.region} {SITE.postal}</p>
             </address>
-            <p style={{ marginTop: 14 }}><a href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a></p>
+            <p style={{ marginTop: 14 }}><a className="link" href="/consultation/#book">Get a 24-hour quote</a></p>
             <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
           </div>
           <div>
@@ -29,8 +29,8 @@ export default function Footer() {
             <h2 className="ftr-h">Practice</h2>
             <ul>
               <li><Link href="/about/">Dr. Ennuson</Link></li>
-              <li><Link href="/pricing/">Veneer pricing and financing</Link></li>
-              <li><Link href="/consultation/">Book a consultation</Link></li>
+              <li><Link href="/pricing/">Veneer pricing and monthly payment options</Link></li>
+              <li><Link href="/consultation/">Get a 24-hour quote</Link></li>
               <li><Link href="/veneers-lawrenceville-ga/">Veneers in Lawrenceville, GA</Link></li>
               <li><Link href="/contact/">Contact and directions</Link></li>
             </ul>
@@ -53,3 +53,4 @@ export default function Footer() {
     </footer>
   );
 }
+  

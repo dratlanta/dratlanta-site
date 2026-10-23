@@ -62,7 +62,7 @@ export default function About() {
               <div><dt>License</dt><dd>Georgia Board of Dentistry. <a className="link" href={SITE.licenseLookup} target="_blank" rel="noopener">Verify any Georgia dentist&rsquo;s license</a> at the board&rsquo;s public lookup, including this one.</dd></div>
               <div><dt>Focus</dt><dd><Link className="link" href="/veneers/">Porcelain veneers</Link>, smile makeovers, and <Link className="link" href="/fix-botched-veneers/">correction of veneer work done elsewhere</Link>.</dd></div>
               <div><dt>Practice</dt><dd>{SITE.practice}, {SITE.street}, {SITE.city}, {SITE.region} {SITE.postal}. A fixed address you can walk into. <Link className="link" href="/contact/">Directions</Link></dd></div>
-              <div><dt>Phone</dt><dd><a className="link" href="tel:+14043834574">(404) 383-4574</a> — evening and weekend consultation slots available</dd></div>
+              <div><dt>Get started</dt><dd><a className="link" href="/consultation/#book">Get a 24-hour quote</a></dd></div>
             </dl>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function About() {
             <ProofCards cards={proof} />
             <div className="btn-row" style={{ marginTop: 32 }}>
               <Link className="btn" href="/why-licensed/">Why the license matters</Link>
-              <Link className="btn solid" href="/consultation/">Book a consultation</Link>
+              <Link className="btn solid" href="/consultation/">Get a 24-hour quote</Link>
             </div>
           </div>
         </div>

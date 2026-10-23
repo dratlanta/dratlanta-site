@@ -15,6 +15,7 @@ export const proof: Proof[] = [
   {
     k: 'Practice', title: 'A fixed address in metro Atlanta',
     body: 'A real practice you can walk into, not a studio or a hotel room. Most cases take three to four visits, with temporaries the same day as preparation.',
-    href: '/consultation/', cta: 'Book a consultation',
+    href: '/consultation/', cta: 'Get a 24-hour quote',
   },
 ];
+  
