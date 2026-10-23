@@ -31,12 +31,12 @@ const QA: QaItem[] = [
     a: <>Veneers look fake for two reasons: one flat shade of white, and shapes that ignore the face around them. Here the shade and translucency are <Link className="link" href="/smile-design/">matched to your skin</Link> and the shapes are designed from your facial photography.</> },
   { q: 'What if I hate them?', text: 'You approve a wax-up preview, then wear trial temporaries shaped like the final design in your real life. The design is revised until you approve it. Porcelain is only made from a design you have already lived with.',
     a: 'You approve a wax-up you can hold, then wear trial temporaries shaped like the final design in your real life: talking, eating, photographs. The design is revised until you approve it. Porcelain is only made from a design you have already lived with.' },
-  { q: 'How much do veneers cost?', text: 'A full-arch smile design is $8,999, published on the pricing page. Smaller cases are quoted in writing at the consultation. Financing is available through third-party lenders, subject to credit approval.',
-    a: <>A full-arch smile design is $8,999, published on the <Link className="link" href="/pricing/">pricing page</Link> and the same everywhere. Smaller cases are quoted in writing at your consultation. Financing through third-party lenders is available, subject to credit approval.</> },
+  { q: 'How much do veneers cost?', text: 'A full-arch smile design is $8,999, published on the pricing page. Smaller cases are quoted in writing at the consultation. Monthly payment options are available through third-party lenders, subject to credit approval.',
+    a: <>A full-arch smile design is $8,999, published on the <Link className="link" href="/pricing/">pricing page</Link> and the same everywhere. Smaller cases are quoted in writing at your consultation. Monthly payment options through third-party lenders is available, subject to credit approval.</> },
 ];
 
 const visits = [
-  { t: 'Consultation', b: 'Sixty minutes. Photography, facial analysis, a gum health check, and an honest answer to whether veneers are right for you at all.', src: '/photos/consult-screen.webp', alt: 'Dr. Ennuson reviewing images with a patient at a veneer consultation' },
+  { t: 'Consultation', b: 'Start with your photos. Photography, facial analysis, a gum health check, and an honest answer to whether veneers are right for you at all.', src: '/photos/consult-screen.webp', alt: 'Dr. Ennuson reviewing images with a patient at a veneer consultation' },
   { t: 'Smile planning', b: 'Shade chosen against your skin in daylight, a wax-up preview of the design, and the full price in writing.', src: '/photos/consult-whitecoat.webp', alt: 'Dr. Eric Ennuson, DDS, during smile planning' },
   { t: 'Prep and temporaries', b: 'Conservative preparation, fully numbed. You leave the same day wearing temporaries shaped like your final design.', src: '/photos/loupes-side.webp', alt: 'Dr. Ennuson in magnification loupes during veneer preparation' },
   { t: 'Final placement', b: 'Your porcelain is bonded, the bite is refined, and you get a written care plan for the next ten to fifteen years.', src: '/photos/chairside.webp', alt: 'Dr. Ennuson bonding porcelain veneers at final placement' },
@@ -236,12 +236,12 @@ export default function Veneers() {
           <div className="grid" style={{ marginBottom: 'clamp(28px, 4vw, 44px)' }}>
             <div className="c-1-6"><h2>Veneer questions, answered plainly.</h2></div>
             <div className="c-7-13" style={{ alignSelf: 'end' }}>
-              <p className="lede">Ask the rest in person. Evening and weekend consultations, no obligation: <a className="link" href="tel:+14043834574">(404) 383-4574</a>.</p>
+              <p className="lede">Ask the rest in person. Evening and weekend consultations, no obligation: <a className="link" href="/consultation/#book">Get a 24-hour quote</a>.</p>
             </div>
           </div>
           <Qa items={QA} />
           <div className="btn-row" style={{ marginTop: 36 }}>
-            <Link className="btn solid" href="/consultation/">Book a consultation</Link>
+            <Link className="btn solid" href="/consultation/">Get a 24-hour quote</Link>
             <Link className="btn" href="/pricing/">See the price</Link>
             <Link className="btn" href="/fix-botched-veneers/">Fixing veneers done elsewhere</Link>
           </div>
@@ -252,3 +252,4 @@ export default function Veneers() {
     </>
   );
 }
+  
