@@ -43,7 +43,7 @@ const items: { href: string; label: string; peek: Peek }[] = [
     href: '/pricing/', label: 'Pricing',
     peek: {
       title: 'The price is the price.',
-      body: 'Full-arch smile design, published and confirmed in writing before treatment. Financing through Cherry, Sunbit, and HFD.',
+      body: 'Full-arch smile design, published and confirmed in writing before treatment. Monthly payment options through Cherry, Sunbit, and HFD.',
       img: '/photos/operatory-light.webp',
       links: [{ href: '/pricing/', label: 'Monthly payment calculator' }, { href: '/pricing/#cost', label: 'What changes the cost' }],
       price: true,
@@ -155,16 +155,12 @@ export default function Header() {
             </LayoutGroup>
 
             <div className="hd-end">
-              <a className="hd-tel" href="tel:+14043834574">
-                <span className="hd-dot" aria-hidden="true" />
-                <span className="hd-tel-num">(404) 383-4574</span>
-                <span className="hd-tel-sub">Evening &amp; weekend consults</span>
-              </a>
+              <a className="hd-tel" href="/consultation/#book"><span className="hd-dot" aria-hidden="true" /><span className="hd-tel-num">Personally reviewed</span><span className="hd-tel-sub">By Dr. Atlanta · Within 24 hours</span></a>
               <span className="hd-cta-wrap">
                 <Magnet padding={70} magnetStrength={3.2} wrapperClassName="hd-magnet" innerClassName="hd-magnet-inner">
                   <Link className="btn solid hd-cta" href="/consultation/">
                     <ShineBorder shineColor={['#F2F1ED', '#B9975B', '#F2F1ED']} borderWidth={1} duration={9} className="hd-shine" />
-                    Book a consultation
+                    Get a 24-hour quote
                   </Link>
                 </Magnet>
               </span>
@@ -222,7 +218,7 @@ export default function Header() {
               </Link>
             ))}
             <Link href="/consultation/" className="menu-cta">
-              <span className="menu-word" style={{ ['--i' as string]: items.length }}>Book a consultation</span>
+              <span className="menu-word" style={{ ['--i' as string]: items.length }}>Get a 24-hour quote</span>
             </Link>
           </nav>
           <div className="menu-foot">
@@ -231,8 +227,8 @@ export default function Header() {
               <Link href="/why-licensed/">Licensed dentist vs. veneer tech</Link>
               <Link href="/contact/">Contact and directions</Link>
             </div>
-            <a className="link" href="tel:+14043834574">(404) 383-4574</a>
-            <span className="small">Serving metro Atlanta · Evening and weekend consultations</span>
+            <a className="link" href="/consultation/#book">Get a 24-hour quote</a>
+            <span className="small">Photo estimates within 24 hours · Serving metro Atlanta</span>
           </div>
         </div>,
         document.body,
@@ -240,3 +236,4 @@ export default function Header() {
     </>
   );
 }
+  
