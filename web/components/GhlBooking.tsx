@@ -8,7 +8,7 @@ import Script from 'next/script';
  * calendar (/widget/booking/ID). Set NEXT_PUBLIC_GHL_EMBED_URL to switch; the default is
  * the practice's existing form. Planner answers must never be placed in URLs.
  */
-const DEFAULT_URL = 'https://api.leadconnectorhq.com/widget/form/S6q7xzq2zw5JgBFtZ0nZ';
+const DEFAULT_URL = 'https://api.leadconnectorhq.com/widget/form/wtuNzSpAh2gkIymLtKwn';
 const EMBED_URL = process.env.NEXT_PUBLIC_GHL_EMBED_URL || DEFAULT_URL;
 
 export default function GhlBooking({ minHeight = 640 }: { prefill?: Record<string, string>; minHeight?: number }) {
