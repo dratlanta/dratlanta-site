@@ -99,7 +99,7 @@ export default function Hero() {
             metro Atlanta. You approve the design before anything permanent happens.
           </p>
           <div className="cine-actions">
-            <Link className="btn solid" href="/consultation/">Book a consultation</Link>
+            <Link className="btn solid" href="/consultation/">Get a 24-hour quote</Link>
             <Link className="btn" href="/results/">See the cases</Link>
           </div>
 
@@ -132,3 +132,4 @@ export default function Hero() {
     </>
   );
 }
+  
