@@ -67,7 +67,7 @@ export default function FixBotchedVeneers() {
             </p>
             <div className="btn-row" style={{ marginTop: 28 }}>
               <Link className="btn solid" href="/consultation/">Book a correction consult</Link>
-              <a className="btn" href={`tel:${SITE.phoneE164}`}>Call {SITE.phone}</a>
+              <a className="link" href="/consultation/#book">Get a 24-hour quote</a>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function FixBotchedVeneers() {
         <div className="wrap">
           <div className="grid" style={{ marginBottom: 'clamp(28px, 4vw, 44px)' }}>
             <div className="c-1-6"><h2>Veneer correction questions.</h2></div>
-            <div className="c-7-13" style={{ alignSelf: 'end' }}><p className="lede">Call or text <a className="link" href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a> if yours is not here.</p></div>
+            <div className="c-7-13" style={{ alignSelf: 'end' }}><p className="lede">Start with your photos: <a className="link" href="/consultation/#book">Get a 24-hour quote</a> if yours is not here.</p></div>
           </div>
           <Qa items={QA} />
           <div className="btn-row" style={{ marginTop: 36 }}>
