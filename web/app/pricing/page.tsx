@@ -10,7 +10,7 @@ import { pageGraph, service, faq } from '@/lib/schema';
 
 const META = {
   title: 'Veneer Cost in Metro Atlanta: $8,999 Full Arch | Dr. Atlanta',
-  description: 'Veneers cost $8,999 for a full-arch smile design with Dr. Eric Ennuson, DDS. See what is included, what changes the price, and how financing works.',
+  description: 'Veneers cost $8,999 for a full-arch smile design with Dr. Eric Ennuson, DDS. See what is included, what changes the price, and how monthly payment options work.',
   path: '/pricing/',
   image: '/og/pricing.jpg',
 };
@@ -23,8 +23,8 @@ const QA: QaItem[] = [
     a: 'Often because the price is decided in the chair, where it is harder to say no. We think you should be able to decide whether veneers fit your life from your couch, at midnight, without talking to anyone. That is why the number is published.' },
   { q: 'Will my quote change after the consultation?', text: 'Full-arch is $8,999. If your case needs other work first, such as gum therapy or a filling, it is identified at the exam, priced separately in writing, and explained before anything starts.',
     a: 'Full-arch is $8,999, the number you see here. If your case needs other work first, such as gum therapy or a filling, it is identified at the exam, priced separately in writing, and explained before anything starts.' },
-  { q: 'Can I pay monthly?', text: 'Yes. Financing is offered through third-party lenders Cherry, Sunbit, and HFD, on terms the lender sets, subject to credit approval. The representative example on this page shows how one plan is structured.',
-    a: 'Yes. Financing is offered through third-party lenders (Cherry, Sunbit, and HFD) on terms the lender sets, subject to credit approval. The representative example above shows exactly how one plan is structured, including the total you would pay.' },
+  { q: 'Can I pay monthly?', text: 'Yes. Monthly payment options are offered through third-party lenders Cherry, Sunbit, and HFD, on terms the lender sets, subject to credit approval. The representative example on this page shows how one plan is structured.',
+    a: 'Yes. Monthly payment options are offered through third-party lenders (Cherry, Sunbit, and HFD) on terms the lender sets, subject to credit approval. The representative example above shows exactly how one plan is structured, including the total you would pay.' },
   { q: 'Does checking my options hurt my credit?', text: 'Seeing what you may qualify for is a soft inquiry and does not affect your score. A hard inquiry happens only if you accept a plan, and the lender tells you before that point.',
     a: 'Seeing what you may qualify for is a soft inquiry and does not affect your score. A hard inquiry happens only if you accept a plan, and the lender tells you before that point.' },
   { q: 'What if my credit is not great?', text: 'Each lender uses its own criteria, so being declined by one does not mean being declined by all. Approval is the lender’s decision and cannot be promised. A smaller case or a larger down payment can also change what is possible.',
@@ -90,7 +90,7 @@ export default function Pricing() {
           </div>
           <div className="c-6-13">
             <dl className="facts">
-              <div><dt>Planning</dt><dd>Sixty-minute consultation, color-calibrated photography, facial analysis, shade selection in daylight</dd></div>
+              <div><dt>Planning</dt><dd>Personalized consultation, color-calibrated photography, facial analysis, shade selection in daylight</dd></div>
               <div><dt>Design</dt><dd>Wax-up preview and trial temporaries, revised until you approve</dd></div>
               <div><dt>Porcelain</dt><dd>Up to ten lab-fabricated veneers, specified layer by layer with the ceramist</dd></div>
               <div><dt>Placement</dt><dd>Bonding, bite refinement, and a written care plan</dd></div>
@@ -142,7 +142,7 @@ export default function Pricing() {
               <p>Cosmetic veneers are generally not covered. Restorative parts of a case sometimes are, and we help you document them. Ask your plan administrator whether health savings funds apply to your situation.</p>
             </li>
           </ol>
-          <p className="fine" style={{ marginTop: 32 }}>Financing is provided by third-party lenders and is subject to credit approval. Payment figures on this site are representative examples, not offers of credit. Your rate, term, and payment are set by the lender.</p>
+          <p className="fine" style={{ marginTop: 32 }}>Monthly payment options are provided by third-party lenders and is subject to credit approval. Payment figures on this site are representative examples, not offers of credit. Your rate, term, and payment are set by the lender.</p>
         </div>
       </section>
 
@@ -151,7 +151,7 @@ export default function Pricing() {
           <div className="grid" style={{ marginBottom: 'clamp(28px, 4vw, 44px)' }}>
             <div className="c-1-6"><h2>Veneer cost questions, answered plainly.</h2></div>
             <div className="c-7-13" style={{ alignSelf: 'end' }}>
-              <p className="lede">Prefer to ask a person? Call or text <a className="link" href="tel:+14043834574">(404) 383-4574</a>.</p>
+              <p className="lede">Prefer to ask a person? Start with your photos: <a className="link" href="/consultation/#book">Get a 24-hour quote</a>.</p>
             </div>
           </div>
           <Qa items={QA} />
