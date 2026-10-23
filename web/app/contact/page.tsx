@@ -4,7 +4,7 @@ import { SITE, pageMeta } from '@/lib/site';
 
 export const metadata = pageMeta({
   title: 'Contact and Directions | Dr. Atlanta, Lawrenceville GA',
-  description: 'Dr. Eric Ennuson, DDS, sees veneer patients at BRUSH Dentistry, 1475 Buford Dr, Lawrenceville, GA 30043. Call or text (404) 383-4574.',
+  description: 'Dr. Eric Ennuson, DDS, sees veneer patients at BRUSH Dentistry, 1475 Buford Dr, Lawrenceville, GA 30043. Submit your photos for a preliminary estimate within 24 hours.',
   path: '/contact/',
   image: '/og/lawrenceville.jpg',
 });
@@ -46,13 +46,13 @@ export default function Contact() {
                 <a className="link" href={SITE.mapsUrl} target="_blank" rel="noopener" style={{ display: 'inline-block', marginTop: 10 }}>Get directions</a>
               </dd>
             </div>
-            <div><dt>Phone</dt><dd><a className="link" href={`tel:${SITE.phoneE164}`}>{SITE.phone}</a> &nbsp;call or text</dd></div>
+            <div><dt>Get started</dt><dd><a className="link" href="/consultation/#book">Get a 24-hour quote</a></dd></div>
             <div><dt>Email</dt><dd><a className="link" href={`mailto:${SITE.email}`}>{SITE.email}</a></dd></div>
-            <div><dt>Consultations</dt><dd>By appointment, including evening and weekend times. Sixty minutes, no obligation.</dd></div>
+            <div><dt>Consultations</dt><dd>Start with a photo estimate within 24 hours. Request a virtual consultation after submitting your intake.</dd></div>
           </dl>
           <div className="btn-row" style={{ marginTop: 28 }}>
-            <Link className="btn solid" href="/consultation/">Book a consultation</Link>
-            <a className="btn" href={`tel:${SITE.phoneE164}`}>Call {SITE.phone}</a>
+            <Link className="btn solid" href="/consultation/">Get a 24-hour quote</Link>
+            <a className="link" href="/consultation/#book">Get a 24-hour quote</a>
           </div>
         </div>
       </section>
@@ -85,7 +85,7 @@ export default function Contact() {
           <div className="c-6-13 faq">
             <details>
               <summary>Is the consultation really free of pressure?</summary>
-              <p className="a">Yes. You leave with photographs, an honest read on whether veneers suit you, and the full price in writing. What happens next is your call, on your timeline. <Link className="link" href="/consultation/">See how the hour runs</Link>.</p>
+              <p className="a">Yes. You leave with photographs, an honest read on whether veneers suit you, and the full price in writing. What happens next is your call, on your timeline. <Link className="link" href="/consultation/">See how it works</Link>.</p>
             </details>
             <details>
               <summary>Do I need a referral or recent X-rays?</summary>
