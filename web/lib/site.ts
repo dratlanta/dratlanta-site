@@ -7,8 +7,6 @@ export const SITE = {
   shortName: 'Dr. Atlanta',
   legalName: 'Eric Ennuson dba Smiles by Dr. Atlanta',
   doctor: 'Dr. Eric Ennuson, DDS',
-  phone: '(404) 383-4574',
-  phoneE164: '+14043834574',
   email: 'info@dratlanta.org',
   practice: 'BRUSH Dentistry',
   street: '1475 Buford Dr, Suite 204', // suite per brushdentistry.org; confirm with the practice
@@ -49,3 +47,4 @@ export function pageMeta({ title, description, path, image = SITE.ogImage, noind
     twitter: { card: 'summary_large_image', title, description, images: [image] },
   };
 }
+  
